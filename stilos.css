@@ -1,3 +1,7 @@
 body{
     background-color: cornflowerblue;
 }
+.padre{
+    margin-left: 30px;
+    margin-right: 30px;
+}
