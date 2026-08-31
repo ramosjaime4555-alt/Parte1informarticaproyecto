@@ -40,6 +40,32 @@ body {
    
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
+h1 {
+    color: #4a3f8c;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.nieto1,
+.nieto2,
+.nieto3,
+.nieto4,
+.nieto5 {
+    margin-bottom: 18px;
+}
+
+
+
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;}
 
 
 
