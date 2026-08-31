@@ -8,7 +8,7 @@ function acceder(){
     }
     if (ingreso_contraseña != confirmar_contraseña){
         alert("La contraseña no coincide")
-    }else{
+    }if(ingreso_contraseña == "" || ingreso_correo == "" || confirmar_contraseña == ""){
         alert("Uno o mas campos esta vacio")
     }
 }
