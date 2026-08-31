@@ -1,5 +1,5 @@
 function acceder(){
-    let ingreso_correo = document.getElementById("Ingreso_correo").value;
+    let ingreso_correo = document.getElementById("ingreso_correo").value;
     let ingreso_contraseña = document.getElementById("ingreso_contraseña").value;
     let confirmar_contraseña = document.getElementById("confirmar_contraseña").value;
 
@@ -11,7 +11,4 @@ function acceder(){
     }else{
         alert("Uno o mas campos esta vacio")
     }
-}
-function inicio(){
-
 }
