@@ -6,15 +6,18 @@ function acceder(){
     let ingreso_contraseña = document.getElementById("ingreso_contraseña").value;
     let confirmar_contraseña = document.getElementById("confirmar_contraseña").value;
 
+  
     if (ingreso_contraseña == "" || ingreso_correo == "" || confirmar_contraseña == ""){
-        alert("Uno o dos campos estan vacios");
+        alert("Uno o más campos están vacíos");
+        return; 
     }
 
-    if ( ingreso_contraseña == confirmar_contraseña && confirmar_contraseña != ""){
-        alert("Sea registrado con exito");
-        contra == confirmar_contraseña;
-        correoinicio == ingreso_correo;
-    } else{
+   
+    if (ingreso_contraseña == confirmar_contraseña){
+        alert("Se ha registrado con éxito");
+        contra = confirmar_contraseña;   
+        correoinicio = ingreso_correo;    
+    } else {
         alert("No coincide la contraseña");
     }
 }
@@ -30,7 +33,7 @@ function inicio(){
 
     if (correo == correoinicio && contraseña == contra){
         alert("Puede pasar");
-    }else{
+    } else {
         alert("Datos incorrectos");
     }
 }
