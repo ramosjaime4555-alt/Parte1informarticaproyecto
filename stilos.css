@@ -1,8 +1,16 @@
 body{
     background-color: cornflowerblue;
+    img
 }
 .padre{
     display: flex;
     margin-top: 50px;
-    mar
+    margin-left: 30%;
+    gap: 30%;
+}
+.hijo1{
+    color: rgb(199, 43, 43);
+}
+.hijo2{
+    color: goldenrod;
 }
