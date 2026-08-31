@@ -10,7 +10,7 @@ function acceder(){
         alert("Uno o dos campos estan vacios");
     }
 
-    if ( ingreso_contraseña == confirmar_contraseña){
+    if ( ingreso_contraseña == confirmar_contraseña && confirmar_contraseña != ""){
         alert("Sea registrado con exito");
         contra == confirmar_contraseña;
         correoinicio == ingreso_correo;
@@ -28,10 +28,9 @@ function inicio(){
     let correo = document.getElementById("correo").value;
     let contraseña  = document.getElementById("contraseña").value;
 
-    if (contraseña == contra){
-        alert("JKJKJKJ")
-    }
-    if (correo == correoinicio){
-        alert("fjdkfjdkfdj")
+    if (correo == correoinicio && contraseña == contra){
+        alert("Puede pasar");
+    }else{
+        alert("Datos incorrectos");
     }
 }
