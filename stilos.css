@@ -1,8 +1,17 @@
+
 body{
     background-color: cornflowerblue;
+
 }
 .padre{
     display: flex;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25%;
+    margin-right: 40px;
+    gap: 50%;
+}
+.hijo1{
+    color: brown;
+}
+.hijo2{
+    color: brown;
 }
