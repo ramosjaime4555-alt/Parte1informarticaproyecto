@@ -1,16 +1,23 @@
-body{
-    background-color: cornflowerblue;
-    img
+body {
+    background-image: url("https://play.google.com/store/apps/details?id=com.d3p.mpq&hl=es");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
 }
-.padre{
+
+.padre {
     display: flex;
     margin-top: 50px;
     margin-left: 30%;
     gap: 30%;
 }
-.hijo1{
+
+.hijo1 {
     color: rgb(199, 43, 43);
 }
-.hijo2{
+
+.hijo2 {
     color: goldenrod;
 }
