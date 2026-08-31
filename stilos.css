@@ -1,15 +1,17 @@
-body {
-  background-color: lightblue;
+
+body{
+    background-color: cornflowerblue;
+
 }
 .padre{
     display: flex;
-    margin-top: 50px;
-    margin-left: 30%;
-    gap: 30%;
+    margin-left: 25%;
+    margin-right: 40px;
+    gap: 50%;
 }
 .hijo1{
-    color: rgb(199, 43, 43);
+    color: brown;
 }
 .hijo2{
-    color: goldenrod;
+    color: brown;
 }
