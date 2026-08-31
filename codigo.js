@@ -1,10 +1,15 @@
 function acceder(){
     let ingreso_correo = document.getElementById("Ingreso_correo").value;
-    let ingreso_contraseña = document.getElementById("Ingreso_de_contra").value;
-    let confirmar_contraseña = document.getElementById("Ingreso_de_confirmacion").value;
+    let ingreso_contraseña = document.getElementById("ingreso_contraseña").value;
+    let confirmar_contraseña = document.getElementById("confirmar_contraseña").value;
 
-    if (ingreso_contraseña == confirmar_contraseña ){
+    if (ingreso_contraseña == confirmar_contraseña && ingreso_correo != "" ){
         alert("Sea registrado con exito")
+    }
+    if (ingreso_contraseña != confirmar_contraseña){
+        alert("La contraseña no coincide")
+    }else{
+        alert("Uno o mas campos esta vacio")
     }
 }
 function inicio(){
