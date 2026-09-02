@@ -1,10 +1,9 @@
-
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    color:#ff6d00;
+    color: #ff6d00;
     background: linear-gradient(to left, #90caf9, #1565c0);
 }
 
@@ -12,7 +11,7 @@ body {
 #titulo {
     text-align: center;
     margin: 30px 0;
-    color:#ff6d00;
+    color: #ff6d00;
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: underline;
@@ -28,7 +27,7 @@ h6 {
 }
 
 
-body > p {
+body>p {
     max-width: 1100px;
     margin: 15px auto;
     padding: 0 20px;
@@ -97,7 +96,7 @@ body > p {
 }
 
 
-body > ul {
+body>ul {
     max-width: 1050px;
     margin: 15px auto 30px;
     padding-left: 45px;
@@ -107,38 +106,53 @@ body > ul {
 .navbar {
     width: 100%;
 }
-#uno{
+
+#uno {
     font-size: 20px;
     text-align: center;
     color: #ffff;
 }
-#seis{
+
+#seis {
     font-size: 20px;
     text-align: center;
-    
+
 }
-#siete{
+
+#siete {
     font-size: 20px;
     text-align: center;
-    
+
 }
-#ocho{
+
+#ocho {
     font-size: 20px;
     text-align: center;
-    
+
 }
-#lista{
+
+#lista {
     text-align: center;
-    
+
 }
-#diez{
-     text-align: center;
-}
-#nueve{
-     text-align: center;
-}
-#once{
+
+#diez {
     text-align: center;
+}
+
+#nueve {
+    text-align: center;
+}
+
+#once {
+    text-align: center;
+}
+
+#tipos-mantenimientos {
+    text-align: center;
+    color: #ff6d00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
