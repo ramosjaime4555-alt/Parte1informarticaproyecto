@@ -1,5 +1,5 @@
-let contra = "";
-let correoinicio = "";
+let contra = " ";
+let correoinicio = " ";
 
 function acceder(){
     let ingreso_correo = document.getElementById("ingreso_correo").value;
