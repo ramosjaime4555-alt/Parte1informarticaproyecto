@@ -80,11 +80,20 @@ body > p {
 
 .info3parte1,
 .info3parte2,
-.info3parte3 {
+.info3parte3,
+.info4parte1,
+.info4parte2,
+.info5parte1,
+.info5parte2,
+.info5parte3 {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-sizing: border-box;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
@@ -106,21 +115,30 @@ body > ul {
 #seis{
     font-size: 20px;
     text-align: center;
-    color: #ffff;
+    
 }
 #siete{
     font-size: 20px;
     text-align: center;
-    color: #ffff;
+    
 }
 #ocho{
     font-size: 20px;
     text-align: center;
-    color: #ffff;
+    
 }
 #lista{
     text-align: center;
-    color: #ffff;
+    
+}
+#diez{
+     text-align: center;
+}
+#nueve{
+     text-align: center;
+}
+#once{
+    text-align: center;
 }
 
 @media (max-width: 768px) {
