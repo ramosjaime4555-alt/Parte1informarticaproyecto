@@ -1,3 +1,6 @@
 body{
     background-color: #6c757d;
 }
+.container-fluid{
+    text-size-adjust: 20px;
+}
