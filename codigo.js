@@ -17,7 +17,6 @@ function acceder(){
         alert("Se ha registrado con éxito");
         contra = confirmar_contraseña;   
         correoinicio = ingreso_correo;   
-        window.location="index2.html";
     } else {
         alert("No coincide la contraseña");
     }
@@ -34,6 +33,7 @@ function inicio(){
 
     if (correo == correoinicio && contraseña == contra){
         alert("Puede pasar");
+        window.location="index2.html";
     } else {
         alert("Datos incorrectos");
     }
