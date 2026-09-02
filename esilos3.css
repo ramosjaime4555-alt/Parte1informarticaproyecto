@@ -1,0 +1,11 @@
+.padre1{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 40px;
+}
+
+.titulo{
+    margin-left: 35%;
+}
