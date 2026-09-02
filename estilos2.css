@@ -1,6 +1,11 @@
 body{
-    background-color: #6c757d;
+    background-color: #7b2cbf;
 }
 .container-fluid{
     text-size-adjust: 20px;
+    color: #ff6d00;
+}
+#titulo{
+    text-decoration: underline;
+    color: #ff6d00;
 }
