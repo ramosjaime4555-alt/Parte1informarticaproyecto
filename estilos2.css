@@ -175,3 +175,9 @@ body>ul {
         font-size: 28px;
     }
 }
+
+.carousel-item img {
+  height: 350px;        
+  object-fit: cover;     
+  object-position: center; 
+}
