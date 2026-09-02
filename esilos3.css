@@ -1,5 +1,8 @@
-body{
-    background-color: #7B2CBF;
+*{
+    color: #000000;
+}
+body {
+    background: linear-gradient(to right, #90CAF9, #1565C0);
 }
 
 .padre1{
@@ -14,15 +17,25 @@ body{
     text-decoration: underline;
     color: #ff6d00;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 35%;
+    margin-left: 44%;
 }
 .titulo2{
     margin-left: 34%;
+     text-decoration: underline;
+    color: #ff6d00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .hijo2{
-    margin-right: 5%;
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    
 }
-
+.hijo1{
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+}
 .hijo3{
     display: flex;
     margin-left: 15%;
@@ -36,4 +49,58 @@ body{
     margin-left: 15%;
     margin-right: 19%;
     gap: 40px;
+}
+.nieto5{
+    margin-top: 4%;
+    text-align: center;
+}
+.nieto6{
+    margin-top: 3%;
+    text-align: center;
+    margin-right: 5%;
+}
+.hijo1:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.hijo2:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.nieto1:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.nieto2:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.nieto3:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.nieto4:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+}
+.nieto1{
+    border-radius: 2%;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+}
+
+.nieto2{
+    border-radius: 2%;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+}
+
+.nieto3{
+    border-radius: 2%;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+}
+
+.nieto4{
+    border-radius: 2%;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
 }
