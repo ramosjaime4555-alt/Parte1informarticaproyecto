@@ -122,6 +122,15 @@ body > ul {
     text-align: center;
     color: #ffff;
 }
+#diez{
+     text-align: center;
+}
+#nueve{
+     text-align: center;
+}
+#once{
+    text-align: center;
+}
 
 @media (max-width: 768px) {
 
