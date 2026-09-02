@@ -1,13 +1,39 @@
+body{
+    background-color: #7B2CBF;
+}
+
 .padre1{
     display: flex;
     margin-top: 4%;
     margin-left: 15%;
     margin-right: 15%;
+    gap: 45px;
+}
+
+.titulo{
+    text-decoration: underline;
+    color: #ff6d00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 35%;
+}
+.titulo2{
+    margin-left: 34%;
+}
+.hijo2{
+    margin-right: 5%;
+}
+
+.hijo3{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
     gap: 40px;
 }
-.hijo1{
-    margin-right: 4%;
-}
-.titulo{
-    margin-left: 35%;
+
+.hijo4{
+    display: flex;
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 19%;
+    gap: 40px;
 }
