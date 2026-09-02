@@ -91,7 +91,9 @@ body > p {
     border-radius: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 
