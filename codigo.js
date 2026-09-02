@@ -16,8 +16,7 @@ function acceder(){
     if (ingreso_contraseña == confirmar_contraseña){
         alert("Se ha registrado con éxito");
         contra = confirmar_contraseña;   
-        correoinicio = ingreso_correo;    
-        acceder.clear(acceder)
+        correoinicio = ingreso_correo;   
     } else {
         alert("No coincide la contraseña");
     }
