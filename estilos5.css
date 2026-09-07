@@ -30,3 +30,10 @@ body {
     border-radius: 5px;
     box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
 }
+
+.titulo2{
+    text-decoration: underline;
+    color: #ff6d00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
