@@ -125,7 +125,7 @@ body {
     margin-left: 15%;
     margin-top: 5%;
 }
-.hijo8s{
+.hijo8{
     display: flex;
     gap: 20px;
     margin-right: 15%;
@@ -138,4 +138,81 @@ body {
     text-align: center  ;
     box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
+
+}
+.nieto8{
+    background-color: #FFFFFF;
+    text-align: center  ;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+.nieto9{
+    background-color: #FFFFFF;
+    text-align: center  ;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+.nieto10{
+    background-color: #FFFFFF;
+    text-align: center  ;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+.nieto11{
+    background-color: #FFFFFF;
+    text-align: center  ;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+.nieto12{
+    background-color: #FFFFFF;
+    text-align: center  ;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+.nieto13{
+    background-color: #FFFFFF;
+    text-align: center  ;
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    border-radius: 2%;
+
+}
+.nieto7:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.nieto8:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.nieto9:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.nieto10:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.nieto11:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.nieto12:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.nieto13:hover{
+    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+
+}
+.titulo3{
+    text-align: center;
+    text-decoration: underline;
+    color: #ff6d00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
