@@ -28,13 +28,13 @@ body {
 .hijo2{
     background-color: #FFFFFF;
     border-radius: 3%;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     
 }
 .hijo1{
     background-color: #FFFFFF;
     border-radius: 3%;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
 }
 .hijo3{
     display: flex;
@@ -60,49 +60,49 @@ body {
     margin-right: 5%;
 }
 .hijo1:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 .hijo2:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 .nieto1:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 .nieto2:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 .nieto3:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 .nieto4:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 .nieto1{
     border-radius: 2%;
     background-color: #FFFFFF;
     text-align: center;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
 }
 
 .nieto2{
     border-radius: 2%;
     background-color: #FFFFFF;
     text-align: center;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
 }
 
 .nieto3{
     border-radius: 2%;
     background-color: #FFFFFF;
     text-align: center;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
 }
 
 .nieto4{
     border-radius: 2%;
     background-color: #FFFFFF;
     text-align: center;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
 }
 
 .hijo5{
@@ -136,78 +136,78 @@ body {
 .nieto7{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto8{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto9{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto10{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto11{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto12{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto13{
     background-color: #FFFFFF;
     text-align: center  ;
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     border-radius: 2%;
 
 }
 .nieto7:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .nieto8:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .nieto9:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .nieto10:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .nieto11:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .nieto12:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .nieto13:hover{
-    box-shadow: 4px 4px 10px 0px rgb(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 
 }
 .titulo3{
