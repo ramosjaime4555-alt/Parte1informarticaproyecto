@@ -216,3 +216,7 @@ body {
     color: #ff6d00;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
+
+#cambio{
+    margin-left: -320%;
+}
