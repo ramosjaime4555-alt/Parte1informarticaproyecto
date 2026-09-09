@@ -37,3 +37,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
+.carta1 :hover{
+    height: 100px;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
+}
