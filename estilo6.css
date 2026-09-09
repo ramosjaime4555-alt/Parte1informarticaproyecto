@@ -81,6 +81,7 @@ body {
 
 
 
+
 .padre1 {
     display: flex;
     margin: 30px 20px;
@@ -118,7 +119,6 @@ body {
 
 
 
-
 .hijo1:hover,
 .hijo2:hover,
 .hijo3:hover,
@@ -130,6 +130,7 @@ body {
     border-color: #ff6d00;
     box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.35);
 }
+
 
 
 
@@ -150,3 +151,175 @@ body {
 
 
 
+.hijo1 p,
+.hijo2 p,
+.hijo3 p,
+.hijo4 p,
+.hijo5 p,
+.hijo6 p,
+.hijo7 p {
+    color: #333333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
+
+.padre2 {
+    display: flex;
+    margin: 30px 20px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.hijo4 {
+    flex: 1;
+    min-width: 250px;
+}
+
+.hijo5 {
+    flex: 1;
+    min-width: 250px;
+}
+
+.hijo6 {
+    flex: 1;
+    min-width: 250px;
+}
+
+.hijo7 {
+    flex: 1;
+    min-width: 250px;
+}
+
+
+
+.hijo1 {
+    border-left: 7px solid #ff6d00;
+}
+
+.hijo2 {
+    border-left: 7px solid #1565c0;
+}
+
+.hijo3 {
+    border-left: 7px solid #ff6d00;
+}
+
+.hijo4 {
+    border-top: 7px solid #ff6d00;
+}
+
+.hijo5 {
+    border-top: 7px solid #1565c0;
+}
+
+.hijo6 {
+    border-top: 7px solid #ff6d00;
+}
+
+.hijo7 {
+    border-top: 7px solid #1565c0;
+}
+
+
+
+
+.hijo1:hover {
+    border-left-color: #1565c0;
+}
+
+.hijo2:hover {
+    border-left-color: #ff6d00;
+}
+
+.hijo3:hover {
+    border-left-color: #1565c0;
+}
+
+.hijo4:hover,
+.hijo6:hover {
+    border-top-color: #1565c0;
+}
+
+.hijo5:hover,
+.hijo7:hover {
+    border-top-color: #ff6d00;
+}
+
+
+@media (max-width: 992px) {
+
+    #titulo_principal {
+        font-size: 35px;
+    }
+
+    .padre1,
+    .padre2 {
+        margin-left: 15px;
+        margin-right: 15px;
+        gap: 20px;
+    }
+
+    .hijo1,
+    .hijo2,
+    .hijo3,
+    .hijo4,
+    .hijo5,
+    .hijo6,
+    .hijo7 {
+        min-width: 45%;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    #titulo_principal {
+        font-size: 28px;
+        margin: 25px 10px;
+    }
+
+    .padre1,
+    .padre2 {
+        display: block;
+        margin: 20px 10px;
+    }
+
+    .hijo1,
+    .hijo2,
+    .hijo3,
+    .hijo4,
+    .hijo5,
+    .hijo6,
+    .hijo7 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hijo1 h2,
+    .hijo2 h2,
+    .hijo3 h2,
+    .hijo4 h2,
+    .hijo5 h2,
+    .hijo6 h2,
+    .hijo7 h2 {
+        font-size: 22px;
+    }
+
+    .hijo1 p,
+    .hijo2 p,
+    .hijo3 p,
+    .hijo4 p,
+    .hijo5 p,
+    .hijo6 p,
+    .hijo7 p {
+        font-size: 15px;
+    }
+}
