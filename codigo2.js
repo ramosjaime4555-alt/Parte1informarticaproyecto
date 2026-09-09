@@ -1,29 +1,30 @@
-const carrucelElemento = document.getElementById(".carrucel-items");
+const carruselElemento = document.querySelector(".carrusel-items");
 
-let posicionMaximaDeDesplasamiento = carrucelElemento.scrollWidth - carrucelElemento.clientWidth;
-let intervalDesplazamiento = null;
+let posicionMaximaDesplazamiento = carruselElemento.scrollWidth - carruselElemento.clientWidth;
+let intervaloDesplazamiento = null;
 let pasoDesplazamiento = 1;
 
-const iniciarDesplazamiento = () =>{
-    intervalDesplazamiento = setInterval(function () {
-        carrucelElemento.scrollLeft = carrucelElemento.scrollLeft + pasoDesplazamiento;
-        if (carrucelElemento.scrollLeft === posicionMaximaDeDesplasamiento) {
-            pasoDesplazamiento = pasoDesplazamiento * -1;
-        } else if ( carrucelElemento.scrollLeft === 0) {
-            pasoDesplazamiento = pasoDesplazamiento * -1
-        }
-    }, 10);
+const iniciarDesplazamiento = () => {
+  intervaloDesplazamiento = setInterval(function () {
+    carruselElemento.scrollLeft = carruselElemento.scrollLeft + pasoDesplazamiento;
+    if (carruselElemento.scrollLeft === posicionMaximaDesplazamiento) {
+      pasoDesplazamiento = pasoDesplazamiento * -1;
+    } else if (carruselElemento.scrollLeft === 0) {
+      pasoDesplazamiento = pasoDesplazamiento * -1;
+    }
+  }, 1);
 };
 
 const detenerDesplazamiento = () => {
-    clearInterval(intervalDesplazamiento);
+  clearInterval(intervaloDesplazamiento);
 };
 
-carrucelElemento.addEventListener("mouseover", () => {
-    detenerDesplazamiento();
+carruselElemento.addEventListener("mouseover", () => {
+  detenerDesplazamiento();
 });
-carrucelElemento.addEventListener("mouseout", () => {
-    iniciarDesplazamiento();
+
+carruselElemento.addEventListener("mouseout", () => {
+  iniciarDesplazamiento();
 });
 
 iniciarDesplazamiento();
