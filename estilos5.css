@@ -3,10 +3,10 @@
 }
 
 #cambio{
-    margin-left: -340%;
+    margin-left: -220%;
 }
 #cambios{
-    margin-left: -580%;
+    margin-left: -390%;
 }
 
 body {
@@ -124,4 +124,10 @@ body {
 
 .carrusel-item:hover {
   transform: scale(1.2);
+}
+
+.titulo3{
+    text-decoration: underline;
+    color: #ff6d00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
