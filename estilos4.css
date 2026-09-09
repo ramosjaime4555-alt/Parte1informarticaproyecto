@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    padding: 0;
+    
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #ff6d00;
@@ -29,15 +28,18 @@ body {
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
+    border-radius: 20px;
 }
 #inicio:hover{
     
     box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
+    
 }
 
 #inicio2 {
     background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
 }
 #inicio2:hover{
     
@@ -47,16 +49,30 @@ body {
     background-color: #ffffff;
     margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+#tabla:hover{
+    
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 #inicio3 {
     background-color: #ffffff;
     margin-top: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
+#inicio3:hover{
+    
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 #nom{
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 20px;
 }
+
 #carouselExample{
     margin-left: 50%;
+}
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
