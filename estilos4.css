@@ -27,16 +27,36 @@ body {
 
 #inicio {
     background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
+}
+#inicio:hover{
+    
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 
 #inicio2 {
     background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#inicio2:hover{
+    
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
 #tabla{
     background-color: #ffffff;
     margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #inicio3 {
     background-color: #ffffff;
     margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nom{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+}
+#carouselExample{
+    margin-left: 50%;
 }
