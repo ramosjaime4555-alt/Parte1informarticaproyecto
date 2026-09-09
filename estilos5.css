@@ -1,3 +1,6 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 #cambio{
     margin-left: -340%;
@@ -37,3 +40,28 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
 }
 
+.carta1 :hover{
+    height: 100px;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
+}
+
+.padre1 p{
+    font-size: larger;
+}
+
+.hijo1{
+    display: flex;
+    gap: 60px;
+    margin-left: 18%;
+}
+
+.hijo2{
+    margin-top: 3%;
+    margin-left: 30%;
+    
+}
+
+.nieto1{
+    background-color: #FFFFFF;
+    
+}
