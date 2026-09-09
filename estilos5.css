@@ -47,21 +47,48 @@ body {
 
 .padre1 p{
     font-size: larger;
+    
 }
 
 .hijo1{
     display: flex;
     gap: 60px;
-    margin-left: 18%;
+    margin-left: 10%;
+    text-align: center;
 }
 
 .hijo2{
+    background-color: #FFFFFF;
     margin-top: 3%;
     margin-left: 30%;
+    text-align: center;
+    width: 37%;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     
 }
 
 .nieto1{
     background-color: #FFFFFF;
+    width: 45%;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
     
+}
+
+.nieto2{
+    background-color: #FFFFFF;
+    width: 35%;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.3);
+
+}
+
+.nieto1 :hover{
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
+}
+.nieto2 :hover{
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
+}
+
+.hijo2 :hover{
+    box-shadow: 4px 4px 10px 8px rgb(0, 0, 0, 0.5);
 }
